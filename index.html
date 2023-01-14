@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>شركة حجز طيران</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+
+      
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="header_white_section">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="header_information">
+                           <ul>
+                              <li><img src="images/1.png" alt="#"/> عنوان , عنوان , عنوان</li>
+                              <li><img src="images/2.png" alt="#"/> +71  5678954378</li>
+                              <li><img src="images/3.png" alt="#"/> Demo@demp.com</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo"> <a href="index.html">   <img src="images/logo.png" alt="#">   </a> </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="menu-area">
+                        <div class="limit-box">
+                           <nav class="main-menu">
+                              <ul class="menu-area-main">
+                                 <li class="active"> <a href="#">الصفحة الرئيسية </a> </li>
+                                 <li> <a href="#about">اتصل بنا </a> </li>
+                                 <li><a href="#travel">السفر </a></li>
+                                 <li><a href="#blog">المدونة </a></li>
+                                 <li><a href="#contact"> اتصل بنا </a></li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner -->
+      </header>
+      <!-- end header -->
+      <section >
+         <div class="banner-main">
+            <img src="images/banner.jpg" alt="#"/>
+            <div class="container">
+               <div class="text-bg">
+                  <h1>  احجز رحلتك  <br><strong class="white">رحلات مدهشه</strong></h1>
+                  <div class="button_section"> <a class="main_bt" href="#">اقرأ المزيد</a>  </div>
+                  <div class="container">
+                     <form class="main-form">
+                        <h3> ابحث عن رحلتك</h3>
+                        <div class="row">
+                           <div class="col-md-9">
+                              <div class="row srow">
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >الكلمات المفتاحية </label>
+                                    <input class="form-control" placeholder="ابحث " type="text" >
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >التصنيف</label>
+                                    <select class="form-control" >
+                                       <option>اختيار</option>
+                                       <option>الاختيار 1</option>
+                                       <option>الاختيار 2</option>
+                                       <option>الاختيار 3</option>
+                                    </select>
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >أقل سعر</label>
+                                    <input class="form-control" placeholder="100" type="number" min="100" max="5000" step="100" >
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >المدة</label>
+                                    <input class="form-control" placeholder="3" type="number" min="10" max="90" step="1">
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >التاريخ</label>
+                                    <input class="form-control" placeholder="Any" type="datetime-local" >
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >أقصى سعر</label>
+                                    <input class="form-control" placeholder="1000" type="number" min="100" max="5000" step="100" >
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                              <a href="#">ابحث عن رحلتك </a>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- about -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="titlepage">
+                     <h2>عن شركتنا </h2>
+                     <span> 
+حقيقة أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم هو أنه يحتوي على توزيع طبيعي -إلى حد ما- للأحرف</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <div class="about-box">
+                        <p> <span>هناك العديد من الأشكال المتاحة لنصوص لوريم إيبسوم ، لكن الغالبية تعرضت للتغيير بشكل ما ، عن طريق إدخال بعض الفكاهة أو الكلمات العشوائية التي لا تبدو قابلة للتصديق إلى حد ما. إذا كنت ستستخدم مقطعًا من لوريم إيبسوم ، فأنت بحاجة إلى التأكد من وجود العديد من الأشكال المتاحة لمقاطع لوريم إيبسوم ، ولكن الغالبية قد تعرضت للتغيير بشكل ما ، عن طريق إدخال روح الدعابة أو الكلمات العشوائية التي لا تبدو حتى يمكن تصديقه قليلاً. إذا كنت ستستخدم مقطعًا من لوريم إيبسوم ، فأنت بحاجة إلى التأكد من ذلك
+</span></p>
+                        <div class="palne-img-area">
+                           <img src="images/plane-img.png" alt="images">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a href="#">اقرأ المزيد</a>
+         </div>
+      </div>
+      <!-- end about -->
+
+
+      <!-- Start price Area -->
+			<section class="price-area section-gap">
+				<div class="container">
+		            <div class="row d-flex justify-content-center">
+		                <div class="menu-content pb-70 col-lg-8">
+		                    <div class="title text-center">
+		                        <h1 class="mb-10">نوفر عروض سفر متميزة </h1>
+		                        <p>المثقفون والمتعلمون جيدًا ، وخاصة العلماء في جميع الأوقات ، يبرهنون بشكل كبير.
+                              </p>
+		                    </div>
+		                </div>
+		            </div>						
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="single-price">
+								<h4>باقات رخيصة</h4>
+								<ul class="price-list">
+									<li class="d-flex justify-content-between align-items-center">
+										<span>New York</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Maldives</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Sri Lanka</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Nepal</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Thiland</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>	
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Singapore</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>														
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-price">
+								<h4>باقات متوسطه</h4>
+								<ul class="price-list">
+									<li class="d-flex justify-content-between align-items-center">
+										<span>New York</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Maldives</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Sri Lanka</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Nepal</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Thiland</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>	
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Singapore</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>														
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-price">
+								<h4>باقات عاليه</h4>
+								<ul class="price-list">
+									<li class="d-flex justify-content-between align-items-center">
+										<span>New York</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Maldives</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Sri Lanka</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Nepal</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Thiland</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>	
+									<li class="d-flex justify-content-between align-items-center">
+										<span>Singapore</span>
+										<a href="#" class="price-btn">$1500</a>
+									</li>														
+								</ul>
+							</div>
+						</div>												
+					</div>
+				</div>	
+			</section>
+			<!-- End price Area -->
+
+      <!-- traveling -->
+      <div id="travel" class="traveling">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="titlepage">
+                     <h2>اختر عروض السفر </h2>
+                     <span>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم هو أنه يحتوي على توزيع طبيعي -إلى حد ما- للأحرف</span> 
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="icon/travel-icon.png" alt="icon"/></i>
+                     <h3>مدن مختلفة</h3>
+                     <p> سوف تستخدم مقطعًا من لوريم إيبسوم ، يجب أن تكون كذلك
+                     </p>
+                     <div class="read-more">
+                        <a  href="#">اقرأ المزيد</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="icon/travel-icon2.png" alt="icon"/></i>
+                     <h3>رحلات للجبال</h3>
+                     <p> سوف تستخدم مقطعًا من لوريم إيبسوم ، يجب أن تكون كذلك
+                     </p>
+                     <div class="read-more">
+                        <a  href="#">اقرأ المزيد</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="icon/travel-icon3.png" alt="icon"/></i>
+                     <h3>رحلات الحافلة </h3>
+                     <p>سوف تستخدم مقطعًا من لوريم إيبسوم ، يجب أن تكون كذلك
+                     </p>
+                     <div class="read-more">
+                        <a  href="#">اقرأ المزيد</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="icon/travel-icon4.png" alt="icon"/></i>
+                     <h3>رحلات الصيف</h3>
+                     <p> سوف تستخدم مقطعًا من لوريم إيبسوم ، يجب أن تكون كذلك
+                     </p>
+                     <div class="read-more">
+                        <a  href="#">اقرأ المزيد</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end traveling -->
+      <!--London -->
+      <div class="London">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>أجازة الصيف فى نيويورك ولندن</h2>
+                     <span>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم هو أنه يحتوي على توزيع طبيعي -إلى حد ما- للأحرف ،
+                     </span> 
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="London-img">
+               <figure><img src="images/London.jpg" alt="img"/></figure>
+            </div>
+         </div>
+      </div>
+      <!-- end London -->
+      <!--Tours -->
+      <div class="Tours">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>أفضل الرحلات</h2>
+                     <span>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم هو أنه يحتوي على توزيع طبيعي -إلى حد ما- للأحرف ،
+                     </span> 
+                  </div>
+               </div>
+            </div>
+            <section id="demos">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="owl-carousel owl-theme">
+                        <div class="item">
+                           <img class="img-responsive" src="images/1.jpg" alt="#" />
+                           <h3>رحلات الأجازه</h3>
+                           <p>هناك العديد من الاختلافات المتاحة لنصوص لوريم إيبسوم ، لكن الغالبية قد تعرضت لتغييرات في نصوص لوريم إيبسوم حتى ولو كانت قابلة للتصديق إلى حد ما. إذا كنت متأكدا هناك
+                           </p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="images/2.jpg" alt="#" />
+                           <h3>نيويورك</h3>
+                           <p>هناك العديد من الاختلافات المتاحة لنصوص لوريم إيبسوم ، لكن الغالبية قد تعرضت لتغييرات في نصوص لوريم إيبسوم حتى ولو كانت قابلة للتصديق إلى حد ما. إذا كنت متأكدا هناك
+                           </p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="images/3.jpg" alt="#" />
+                           <h3>لندن</h3>
+                           <p>هناك العديد من الاختلافات المتاحة لنصوص لوريم إيبسوم ، لكن الغالبية قد تعرضت لتغييرات في نصوص لوريم إيبسوم حتى ولو كانت قابلة للتصديق إلى حد ما. إذا كنت متأكدا هناك
+                           </p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="images/2.jpg" alt="#" />
+                           <h3>رحلات الأجازه</h3>
+                           <p>هناك العديد من الاختلافات المتاحة لنصوص لوريم إيبسوم ، لكن الغالبية قد تعرضت لتغييرات في نصوص لوريم إيبسوم حتى ولو كانت قابلة للتصديق إلى حد ما. إذا كنت متأكدا هناك
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+      <!-- end Tours -->
+      <!-- Amazing -->
+      <div class="amazing">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="amazing-box">
+                     <h2>رحلة لندن</h2>
+                     <span>هناك العديد من الأشكال المتاحة لنصوص لوريم إيبسوم ، لكن الغالبية تعرضت للتغيير بشكل ما ، عن طريق إدخال بعض الفكاهة أو الكلمات العشوائية التي لا تبدو قابلة للتصديق إلى حد ما. إذا كنت ستستخدم مقطعًا من لوريم إيبسوم ، فأنت بحاجة إلى التأكد من ذلك
+                     </span>
+                     <a href="#">احجز الان</a><a href="#">المزيد</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end Amazing -->
+      <!-- our blog -->
+      <div id="blog" class="blog">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>مدونتنا</h2>
+                     <span>لوريم إيبسوم هو أنه يحتوي على توزيع طبيعي -إلى حد ما- للأحرف ،
+                     </span> 
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="blog-box">
+                     <figure><img src="images/blog-image0.jpg" alt="#"/>
+                        <span>4 فبراير 2019</span>
+                     </figure>
+                     <div class="travel">
+                        <span>تم النشر بواسطة : شركة سفريات </span> 
+                        <p><strong class="Comment"> 06 </strong>  رد</p>
+                        <p><strong class="like">05 </strong>اعحاب</p>
+                     </div>
+                     <h3>رحلة لندن</h3>
+                     <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم هو أنه يحتوي على توزيع طبيعي -إلى حد ما- للأحرف ، بدلاً من استخدام "هنا يوجد محتوى نصي ، هنا يوجد محتوى نصي" ، مما يجعلها تبدو وكأنها إنجليزية قابلة للقراءة. العديد من حزم النشر المكتبي والويب
+                     </p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="blog-box">
+                     <figure><img src="images/blog-image.jpg" alt="#"/>
+                        <span> 10 فبراير 2019</span>
+                     </figure>
+                     <div class="travel">
+                        <span>تم النشر بواسطة :- شركة سفريات </span> 
+                        <p><strong class="Comment"> 06 </strong>  رد</p>
+                        <p><strong class="like">05 </strong>اعحاب</p>
+                     </div>
+                     <h3>رحلة لندن</h3>
+                     <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم هو أنه يحتوي على توزيع طبيعي -إلى حد ما- للأحرف ، بدلاً من استخدام "هنا يوجد محتوى نصي ، هنا يوجد محتوى نصي" ، مما يجعلها تبدو وكأنها إنجليزية قابلة للقراءة. العديد من حزم النشر المكتبي والويب
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end our blog -->
+      <!-- footer -->
+      <footer>
+         <div id="contact" class="footer">
+            <div class="container">
+               <div class="row pdn-top-30 text-right">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <ul class="location_icon ">
+                        <li> <a href="#"><img src="icon/facebook.png"></a></li>
+                        <li> <a href="#"><img src="icon/Twitter.png"></a></li>
+                        <li> <a href="#"><img src="icon/linkedin.png"></a></li>
+                        <li> <a href="#"><img src="icon/instagram.png"></a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                     <div class="Follow">
+                        <h3>اتصل بنا</h3>
+                        <span>عنوان عنوان عنوان <br>عنوان,<br>
+                        عنوان, عنوان عنوان<br>
+                        +987 654 3210</span>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                     <div class="Follow">
+                        <h3>روابط اضافيه</h3>
+                        <ul class="link">
+                           <li> <a href="#">عن شركتنا</a></li>
+                           <li> <a href="#">الشروط والأحكام</a></li>
+                           <li> <a href="#"> حقوق الملكية</a></li>
+                           <li> <a href="#">الأخبار</a></li>
+                           <li> <a href="#">اتصل بنا</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                     <div class="Follow">
+                        <h3> اتصل بنا</h3>
+                        <div class="row">
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <input class="Newsletter" placeholder="الاسم" type="text">
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <input class="Newsletter" placeholder="البريد الإلكتروني" type="text">
+                           </div>
+                           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                              <textarea class="textarea" placeholder="الرد" type="text">الرد</textarea>
+                           </div>
+                        </div>
+                        <button class="Subscribe">ارسال</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <p>كل الحقوق محفوظه  <a href=""></a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script>
+         $(document).ready(function() {
+           var owl = $('.owl-carousel');
+           owl.owlCarousel({
+             margin: 10,
+             rtl:true,
+             nav: true,
+             loop: true,
+             responsive: {
+               0: {
+                 items: 1
+               },
+               600: {
+                 items: 2
+               },
+               1000: {
+                 items: 3
+               }
+             }
+           })
+         })
+      </script>
+     
+   </body>
+</html>
