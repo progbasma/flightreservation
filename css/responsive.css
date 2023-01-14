@@ -276,6 +276,7 @@
     }
     .about .about-box p span {
         padding-right: 0px;
+        text-align: justify;
     }
     .about a {
         margin-top: 50px;

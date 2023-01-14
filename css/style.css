@@ -1992,10 +1992,12 @@ input[type="radio"] .styled:checked+label::after {
      line-height: 29px;
      padding: 10px 10px 10px 10px;
      color: #282727;
+     text-align: right;
 }
 .item p {
      padding: 0px 10px 10px 10px;
      color: #282727;
+     text-align: right;
 }
 .owl-nav {
      display: none;
